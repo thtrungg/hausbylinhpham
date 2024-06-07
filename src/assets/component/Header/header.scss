@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    position: relative;
+    font-family: 'Saira', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hidden {
+    padding-top: 12px;
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        // gap: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+        padding-right: 0.5%;
+        button {
+            text-decoration: none;
+            border: none;
+            background-color: white;
+        }
+
+        button:hover {
+            text-decoration: underline;
+            text-decoration-color: black;
+        }
+    }
+
+}
+
+.header-main {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center; // horizontally center
+    align-items: center; // vertically center
+    .main-content {
+        padding-top: 12px;
+        // text-transform: uppercase;   
+        a {
+            flex-direction: column;
+            text-decoration: none;
+            p {
+                margin: 0px;
+                padding: 0px;
+                text-transform: none;
+            }
+        }
+    }
+
+}
+
+.overplay-height {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    pointer-events: none;
+    p {
+        font-family: 'StreetSign Sans';
+        font-size: 40vw;
+        top: -8%;
+        display: block;
+    }
+
+}
+
+.overlay {
+    cursor: pointer;
+    text-decoration: underline;
+}

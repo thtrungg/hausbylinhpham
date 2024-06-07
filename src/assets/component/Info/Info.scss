@@ -1,0 +1,37 @@
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    height: 100vh; /* Độ cao của phần tử là 100% chiều cao của viewport */
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+    padding: 0 20px; /* Khoảng cách lề bên trái và phải */
+    position: relative; /* Thiết lập vị trí tương đối cho phần tử */
+    h1,a{
+        text-decoration: none;
+        color: black;
+        font-size: 10vh;
+        font-family: 'StreetSign Sans';
+        font-weight: 10;
+    }
+    a:hover {
+        text-decoration: underline;
+      }
+    h3,p{
+        font-size: 16px; /* Cỡ chữ */
+        font-size: 2vh;
+        text-transform: none;
+        font-weight: bolder;
+    }
+  }
+  
+  .info-content h3 {
+    position: absolute; /* Đặt phần tử là tuyệt đối */
+    bottom: 20px; /* Khoảng cách với phía dưới là 20px */
+    left: 50%; /* Đặt nó ở giữa theo chiều ngang */
+    transform: translateX(-50%); /* Dịch chuyển về trái 50% để căn giữa */
+    width: 100%; /* Độ rộng 100% để căn giữa nội dung */
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+   
+  }
+  

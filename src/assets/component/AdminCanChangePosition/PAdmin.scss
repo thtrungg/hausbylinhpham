@@ -1,0 +1,26 @@
+.admin-menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .admin-menu li {
+    padding: 10px;
+  }
+  
+  .admin-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .admin-menu li a:hover {
+    color: #007bff;
+  }
+  

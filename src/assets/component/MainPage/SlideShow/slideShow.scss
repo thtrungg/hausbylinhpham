@@ -1,0 +1,51 @@
+// Variables
+$primary-color: #275a90; // Primary color for icons and buttons
+
+// Carousel styles
+.video-carousel {
+  margin-top: 20px; // Adjust margin as needed
+}
+
+.carousel-item {
+  .video-player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .video-element {
+    width: 100%;
+    height: auto;
+  }
+
+  .play-pause-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0); // Semi-transparent background for button
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    .play
+    {
+      color: $primary-color;
+      transition: color 0.3s ease;
+    }
+    .pause{
+      // color: rgba(0, 0, 0, 0);
+      opacity: 0;
+    }
+  }
+
+  .video-title {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+  }
+}
